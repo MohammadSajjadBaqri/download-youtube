@@ -1,0 +1,91 @@
+body{
+	margin: 0px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+header{
+	background-color: white;
+	border-style: solid;
+	border-color: #ff0000;
+	border-radius: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 50px;
+	margin-bottom: 75px;
+	margin-left: -100px;
+	margin-right: -100px;
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+.creator-logo{
+	width: 100px;
+	text-align: left;
+}
+
+.app-logo{
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	padding-left: 10px;
+	padding-right: 10px;
+	animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h1{
+	font-family: 'League Gothic', 'Oswald', sans-serif;
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+p{
+	font-family: 'Lato', 'Nunito Sans', sans-serif;
+	font-size: 20px;
+}
+
+.download-buttons{
+	background-color: white;
+	border-style: solid;
+	border-color: #ff0000;
+	border-radius: 25px;
+	margin: 40px;
+	padding: 10px;
+	align-items: center;
+}
+
+.download-logo{
+	align-items: center;
+	width: 100%;
+}
+
+
+.play-store-img{
+	display: inline-block;
+	width: 120px;
+}
+
+.apple-store-img{
+	display: inline-block;
+	width: 100px;
+}
+
+.microsoft-store-img{
+	display: inline-block;
+	width: 100px;
+}
