@@ -6,7 +6,7 @@ body{
 
 header{
 	background-color: white;
-	border-style: solid;
+	border-style: dashed;
 	border-color: #ff0000;
 	border-radius: 25px;
 	padding: 25px;
@@ -61,7 +61,7 @@ p{
 
 .download-buttons{
 	background-color: white;
-	border-style: solid;
+	border-style: dotted;
 	border-color: #ff0000;
 	border-radius: 25px;
 	margin: 40px;
