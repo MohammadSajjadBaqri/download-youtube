@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 170px;
+	padding-right: 170px;
 }
 
 header{
@@ -9,14 +9,11 @@ header{
 	border-style: solid;
 	border-color: #ff0000;
 	border-radius: 25px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	margin-top: 50px;
-	margin-bottom: 75px;
-	margin-left: -100px;
-	margin-right: -100px;
+	padding: 25px;
+	margin-top: 40px;
+	margin-bottom: 65px;
+	margin-left: -110px;
+	margin-right: -110px;
 	animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -38,13 +35,16 @@ header{
 
 .app-logo{
 	text-align: center;
-	padding-top: 65px;
-	padding-bottom: 65px;
+	width: 70%;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	padding-left: 10px;
 	padding-right: 10px;
 	animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -67,25 +67,104 @@ p{
 	margin: 40px;
 	padding: 10px;
 	align-items: center;
+	transition: background-color 1s, border-color 1s, margin 1s;
+}
+
+.download-buttons:hover{
+	background-color: whitesmoke;
+	border-color: #ff5959;
+	margin: 30px;
+	margin-bottom: 40px;
 }
 
 .download-logo{
 	align-items: center;
-	width: 100%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 
 
 .play-store-img{
+	align-items: center;
 	display: inline-block;
-	width: 120px;
+	width: 26%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 1s, opacity 1s;
+}
+
+.play-store-img:hover{
+	width: 28%;
+	opacity: 0.7;
 }
 
 .apple-store-img{
+	align-items: center;
 	display: inline-block;
-	width: 100px;
+	width: 23%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 1s, opacity 1s;
+}
+
+.apple-store-img:hover{
+	width: 25%;
+	opacity: 0.7;
 }
 
 .microsoft-store-img{
+	align-items: center;
 	display: inline-block;
-	width: 100px;
+	width: 20%;
+	margin-right: auto;
+	border: 2px solid #a6a6a6;
+	border-radius: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 1s, opacity 1s;
+}
+
+.microsoft-store-img:hover{
+	width: 22%;
+	opacity: 0.7;
+}
+
+.badges{
+	padding-left: 230px;
+	padding-right: auto;
+	align-content: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: #ff0000;
+	color: white;
+	padding: 50px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	border-radius: 20px;
+	transition: border-radius 2s, background-color 2s;
+}
+
+footer:hover{
+	border-radius: 50px;
+	background-color: darkred;
+}
+
+.hyperlink{
+	color: #ff0000;
+	background-color: white;
+	text-decoration-style: dashed;
+	transition: color 1s, background-color 1s, font-size 1s;
+}
+
+.hyperlink:hover{
+	color: white;
+	background-color: #ff5959;
+	font-size: 22px;
 }
